@@ -6,7 +6,6 @@ import './Components/style.css'
 import Body from './Components/Body'
 import TabList from './Components/TabList'
 
-
 class App extends Component {
   constructor(){
     super();
@@ -41,6 +40,10 @@ class App extends Component {
       {
         id: 5,
         title: 'Email'
+      },
+      {
+        id: 6,
+        title: 'Zoom'
       }
     ];
 

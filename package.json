@@ -11,9 +11,11 @@
     "axios": "^0.19.2",
     "d3": "^5.16.0",
     "firebase": "^7.14.3",
+    "json-server": "^0.16.3",
     "moment": "^2.25.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-icons": "^4.2.0",
     "react-scripts": "3.4.1",
     "react-scroll-up-button": "^1.6.4",
     "simple-react-lightbox": "^2.7.3-2"
@@ -24,7 +26,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "server": "json-server --watch db.json --port 5000"
   },
   "eslintConfig": {
     "extends": "react-app"

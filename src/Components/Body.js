@@ -6,6 +6,7 @@ import Table from './Table.js'
 import Email from './Email.js'
 
 import Text from './Text.js'
+import Zoom from './Zoom.js';
 
 export class Body extends Component {
     displayContent = () => {
@@ -22,6 +23,8 @@ export class Body extends Component {
             return <Table/>
         }else if(activeTab === 5){
             return <Email/>
+        }else if(activeTab === 6){
+            return <Zoom/>
         }
  
 
