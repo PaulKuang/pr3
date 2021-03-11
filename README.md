@@ -1,8 +1,8 @@
 Before running install needed package
-< npm i
+> npm i
 
 Start the web
-< npm start
+> npm start
 
 run the server
-< npm run server
+> npm run server
