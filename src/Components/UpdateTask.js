@@ -1,7 +1,7 @@
 import {useState} from 'react'
 import React, { Component }  from 'react';
 
-const AddTask = ({onAdd}) => {
+const UpdateTask = ({onAdd}) => {
     const [title, setTitle] = useState('')
     const [day, setDay] = useState('')
     const [textInfor, setTextInfor] = useState('')
@@ -65,4 +65,4 @@ const AddTask = ({onAdd}) => {
     )
 }
 
-export default AddTask
+export default UpdateTask
